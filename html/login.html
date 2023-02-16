@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost:3000/css/style.css">
+    <title>Login Panal</title>
+</head>
+<body>
+    <div class="container">
+        <form class="form" action="/login" method="post">
+            <label for="" class="lbl">Emailinizi Giriniz</label><br>
+            <input type="text" class="txt" name="email"><br>
+            <label for="" class="lbl">Şifrenizi Giriniz</label><br>
+            <input type="text" class="txt" name="password">
+            <label for="" name="tik"></label>
+            <div class="butons">
+                <input type="submit" value="Giriş Yap" class="btn">
+                <input type="button" value="Kayıt Ol" class="btn" id="register">
+            </div>
+        </form>
+    </div>
+    <script src="/js/goto.js"></script>
+</body>
+</html>
